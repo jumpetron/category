@@ -1,0 +1,39 @@
+.best-cat-content{
+    background-color: rgb(223, 227, 230);
+}
+
+
+.best-cat-card{
+    padding: 200px;
+    width: 65%;
+    margin: 0 auto;
+}
+.best-cat-card-box{
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 1px 3px 18px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 3px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 3px 18px 0px rgba(0,0,0,0.75);
+}
+
+.best-cat-card-img img{
+    width: 100%;
+}
+
+.best-cat-card-box hr{
+    /* margin: 20px 0 30px ; */
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .best-cat-card{
+        padding: 100px;
+    }
+}
+
+@media screen and (max-width: 1201px ) {
+    .best-cat-card{
+        padding: 150px;
+    }
+}
